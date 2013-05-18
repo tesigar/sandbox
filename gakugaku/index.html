@@ -17,8 +17,16 @@
   		<table>
   			<tr>
   				<th>Message</th>
-  				<td><input type="text" name="m" value="test"></td>
+  				<td><textarea name="m">test</textarea></td>
   			</tr>
+            <tr>
+                <th>Mode</th>
+                <td>
+                    <label><input type="radio" name="t" value="c" checked>per character</label>
+                    <label><input type="radio" name="t" value="l">per line</label>
+                    <label><input type="radio" name="t" value="w">whole</label>
+                </td>
+            </tr>
   			<tr>
   				<th>Size</th>
   				<td><input type="text" name="s" value="30"></td>
@@ -27,6 +35,10 @@
   				<th>Character spacing</th>
   				<td><input type="text" name="p" value="20"></td>
   			</tr>
+            <tr>
+                <th>Line spacing</th>
+                <td><input type="text" name="l" value="20"></td>
+            </tr>
   			<tr>
   				<th>Font color</th>
   				<td><input type="text" name="c" value="#ff0000"></td>

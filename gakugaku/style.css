@@ -9,6 +9,7 @@ div#divBase {
   width: 100%;
   height: 100%;
   display: table;
+  overflow: hidden;
 }
 div#divBase #divContainer {
   display: table-cell;
